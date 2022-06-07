@@ -30,7 +30,7 @@ fn readevalline {
 	prompt
 	readline
 	line = $"linedata
-	while(! rc_is_line_finished $"line){
+	while(! rc-is-line-finished $"line){
 		echo
 		unfin_prompt
 		readline
